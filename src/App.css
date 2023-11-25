@@ -3,3 +3,7 @@
 .outlineButton {
     @apply px-4 py-2 bg-transparent border border-primary text-primary rounded hover:bg-primary hover:text-white transition-all duration-500;
 }
+
+.btn-primary {
+    @apply bg-primary rounded hover:bg-white hover:text-primary hover:translate-y-4 hover:border-primary border transition-all duration-500 text-white px-5 py-3;
+}
