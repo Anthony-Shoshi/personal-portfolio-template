@@ -1,24 +1,17 @@
 import './App.css'
+import About from './components/About'
+import Home from './components/Home'
 import Navbar from './components/Navbar'
+import Skills from './components/Skills'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <body className='bg-blue-500'>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatem porro deserunt, aperiam quidem soluta sint corrupti magni et quae quo repellendus deleniti, fugit dolorem ullam. Nemo repellat autem quasi?
-        </p><p className='mt-32'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatem porro deserunt, aperiam quidem soluta sint corrupti magni et quae quo repellendus deleniti, fugit dolorem ullam. Nemo repellat autem quasi?
-        </p><p className='mt-32'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatem porro deserunt, aperiam quidem soluta sint corrupti magni et quae quo repellendus deleniti, fugit dolorem ullam. Nemo repellat autem quasi?
-        </p><p className='mt-32'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatem porro deserunt, aperiam quidem soluta sint corrupti magni et quae quo repellendus deleniti, fugit dolorem ullam. Nemo repellat autem quasi?
-        </p><p className='mt-32'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatem porro deserunt, aperiam quidem soluta sint corrupti magni et quae quo repellendus deleniti, fugit dolorem ullam. Nemo repellat autem quasi?
-        </p>
-      </body>
+      <Home />
+      <Skills />
+      <About />
     </>
   )
 }
