@@ -1,8 +1,30 @@
-# personal-portfolio-template# React + Vite
+# Portfolio Website Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Welcome to the Portfolio Website Template, a responsive and modern template built with Tailwind CSS and React JS. Showcase your skills, projects, and achievements with a sleek and visually appealing design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Responsive design for optimal viewing across devices
+- User-friendly interface for easy customization
+- Section to highlight skills, projects, and achievements
+- Clean and organized layout for effective presentation
+
+## Getting Started
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/portfolio-template.git
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd personal-portfolio-template
+
+3. **Install Dependencies**
+   ```bash
+   npm install
+
+3. **Run the Deployment Server:**
+   ```bash
+   npm start
