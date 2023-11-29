@@ -7,3 +7,7 @@
 .btn-primary {
     @apply bg-primary rounded hover:bg-white hover:text-primary hover:translate-y-4 hover:border-primary border transition-all duration-500 text-white px-5 py-3;
 }
+
+.active {
+    @apply text-primary;
+}

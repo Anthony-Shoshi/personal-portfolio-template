@@ -2,7 +2,7 @@ import banner from "../assets/banner.png";
 
 const Home = () => {
     return (
-        <div className="bg-bg-shade mt-20">
+        <div className="bg-bg-shade mt-20" id="home">
             <div className="lg:px-12 px-4 flex flex-col md:flex-row items-center justify-between gap-5 py-24">
                 <div className="w-full md:w-1/2 mt-5">
                     <h3 className="text-xl mb-5 font-semibold text-heading-color">Hey, I am John</h3>
