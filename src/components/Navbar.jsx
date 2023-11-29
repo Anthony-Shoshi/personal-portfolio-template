@@ -36,6 +36,7 @@ const Navbar = () => {
                         <a href="" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">Portfolio</a>
                         <a href="" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">About Me</a>
                         <a href="" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">Testimonials</a>
+                        <a href="" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">Contact</a>
                     </div>
                     <div className="lg:block hidden">
                         <button className="outlineButton">
