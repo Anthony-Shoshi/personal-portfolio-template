@@ -28,6 +28,18 @@ const projects = [
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
         image: "/src/assets/portfolio/Image.png",
+    }, {
+        id: 5,
+        name: "Webflow Development",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        image: "/src/assets/portfolio/Image.png",
+    }, {
+        id: 6,
+        name: "Webflow Development",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+        image: "/src/assets/portfolio/Image.png",
     },
 ];
 
@@ -62,13 +74,13 @@ const Portfolio = () => {
                 {projects.map(project => <div className='shadow-xl rounded-lg'>
                     <img src={project.image} alt="img" className='hover:scale-90 transition-all duration-300' />
                     <div className='p-8'>
-                    <h1 className='text-2xl font-semibold mb-2 text-headingcolor'>{project.name}</h1>
-                    <p className='text-body mb-4'>
-                        {project.description}
-                    </p>
-                    <a target='_blank' href="/" className="underline underline-offset-8 hover:text-body">View in Dribble
-                        <img src={arrow} alt="" className="w-3 inline-block ml-3" />
-                    </a>
+                        <h1 className='text-2xl font-semibold mb-2 text-headingcolor'>{project.name}</h1>
+                        <p className='text-body mb-4'>
+                            {project.description}
+                        </p>
+                        <a target='_blank' href="/" className="underline underline-offset-8 hover:text-body">View in Dribble
+                            <img src={arrow} alt="" className="w-3 inline-block ml-3" />
+                        </a>
                     </div>
                 </div>)}
             </div>

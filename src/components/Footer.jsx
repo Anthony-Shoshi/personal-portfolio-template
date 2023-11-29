@@ -1,20 +1,23 @@
 import React from 'react'
 import logo from "../assets/logo.svg";
 import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Link } from 'react-scroll'
 
 const Footer = () => {
     return (
         <div className='bg-bg-shade py-10 my-10 md:px-16 px-4'>
             <div className='flex flex-col md:flex-row md:items-center justify-between mb-20 '>
                 <div className="cursor-pointer">
-                    <img src={logo} alt="Logo" />
+                    <Link to="home" spy={true} smooth={true} offset={-100}>
+                        <img src={logo} alt="Logo" />
+                    </Link>
                 </div>
                 <div className='flex flex-col md:flex-row md:items-center flex-wrap gap-5 md:mt-0 mt-10'>
-                    <a href="" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">Home</a>
-                    <a href="" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">Portfolio</a>
-                    <a href="" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">About me</a>
-                    <a href="" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">Testimonials</a>
-                    <a href="" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">Contact</a>
+                    <Link to="home" spy={true} smooth={true} offset={-100} activeClass="active" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">Home</Link>
+                    <Link to="portfolio" spy={true} smooth={true} offset={-100} activeClass="active" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">Portfolio</Link>
+                    <Link to="about" spy={true} smooth={true} offset={-100} activeClass="active" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">About me</Link>
+                    <Link to="testimonial" spy={true} smooth={true} offset={-100} activeClass="active" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">Testimonials</Link>
+                    <Link to="contact" spy={true} smooth={true} offset={-100} activeClass="active" className="block py-2 px-4 hover:text-gray-400 font-roboto cursor-pointer">Contact</Link>
                 </div>
                 <div className='flex items-center gap-4 ml-4 md:mt-0 mt-10'>
                     <FaFacebookF className='cursor-pointer hover:-translate-y-3 transition-all duration-300 text-xl hover:text-primary' />
