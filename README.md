@@ -18,7 +18,7 @@ Welcome to the Portfolio Website Template, a responsive and modern template buil
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/Anthony-Shoshi/personal-portfolio-template]
+   git clone https://github.com/Anthony-Shoshi/personal-portfolio-template
 
 2. **Navigate to the project directory:**
    ```bash
