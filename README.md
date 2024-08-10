@@ -4,6 +4,9 @@
 
 Welcome to the Portfolio Website Template, a responsive and modern template built with Tailwind CSS and React JS. Showcase your skills, projects, and achievements with a sleek and visually appealing design.
 
+![localhost_5173_](https://github.com/user-attachments/assets/c6d06c92-89e0-4250-bcd5-48afdfcec1c5)
+
+
 ## Features
 
 - Responsive design for optimal viewing across devices
@@ -15,7 +18,7 @@ Welcome to the Portfolio Website Template, a responsive and modern template buil
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/portfolio-template.git
+   git clone [https://github.com/Anthony-Shoshi/personal-portfolio-template]
 
 2. **Navigate to the project directory:**
    ```bash
@@ -27,4 +30,4 @@ Welcome to the Portfolio Website Template, a responsive and modern template buil
 
 3. **Run the Deployment Server:**
    ```bash
-   npm start
+   npm run dev
